@@ -1,0 +1,65 @@
+    body{
+    block-size: auto;
+    block-size: cover;
+    /* background-color: rgb(160, 255, 255);  */
+    } 
+    
+    .calender{
+      margin: 0 auto;
+      max-width: 800px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+      color: rgb(0, 94, 217);
+    }
+    .month{
+      text-align: center;
+      background: rgb(157, 169, 230);
+      font-size: 60px;
+      letter-spacing: 1px;
+      color: rgb(0, 0, 0);
+      border: 5px solid rgb(255, 255, 255);
+      font-style: initial;
+    }
+    table, th, td{
+      width: 100%;
+      table-layout: fixed;
+      text-align: center;
+      text-align: center;
+      font-size: 30px;
+      border-collapse: collapse;
+      border: 10px solid rgb(184, 190, 242);
+
+    }
+    
+    tr, th, td{
+      padding: 15px;  
+    }
+    
+    th{
+      background: hsl(0, 0%, 0%);
+      color: rgba(128, 242, 116, 0.659);
+    }
+    #red{
+        color: red;
+    }
+    td{
+      font-size: 40px;
+      background: #ffffff;
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+    }
+    td:hover{
+      background: #7b87e3;
+    }
+    .RED{
+        background-color: rgb(227, 192, 197); 
+        color: red;
+    }
+    .sec{
+        /* text-decoration: underline; */
+
+    }
+  p{
+    font-size: 40px;
+    font-weight: bolder;
+   }
